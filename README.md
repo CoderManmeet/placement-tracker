@@ -1,6 +1,6 @@
  🚀 Placement Tracker
 
-![Placement Tracker Banner](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)  
+![Placement Tracker Banner](https://media.giphy.com/media/your-gif-link/giphy.gif)  
 
 A **full-stack Placement Tracker** built with:
 
