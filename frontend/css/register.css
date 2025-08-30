@@ -1,0 +1,83 @@
+/* register.css */
+
+/* Body styling */
+body {
+    background-color: #f0f2f5; /* light grey */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Center the register card vertically and horizontally */
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card styling */
+.card {
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    width: 100%;
+    max-width: 450px;
+}
+
+/* Card title */
+.card-title {
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Form inputs */
+.form-control {
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+.form-control:focus {
+    border-color: #28a745; /* green on focus */
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.3);
+    outline: none;
+}
+
+/* Submit button */
+.btn-success {
+    border-radius: 8px;
+    padding: 12px 0;
+    font-weight: 600;
+    font-size: 1rem;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.btn-success:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Links below the form */
+p.text-center a {
+    color: #28a745; /* matches button color */
+    font-weight: 500;
+    text-decoration: none;
+}
+
+p.text-center a:hover {
+    text-decoration: underline;
+}
+
+/* Optional error messages */
+.error-msg {
+    color: #ff4d4f;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    text-align: left;
+}

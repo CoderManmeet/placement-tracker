@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Placement - Placement Tracker</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <div class="min-h-screen flex items-center justify-center">
+    <div class="bg-white shadow-lg rounded-xl p-10 w-full max-w-md">
+      <h2 class="text-2xl font-semibold text-center text-gray-800 mb-6">Add Placement</h2>
+      <form id="placementForm" class="space-y-4">
+
+        <div>
+          <label for="company" class="block text-gray-700 font-medium mb-1">Company</label>
+          <input type="text" id="company" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400" placeholder="Enter company name">
+        </div>
+
+        <div>
+          <label for="role" class="block text-gray-700 font-medium mb-1">Role</label>
+          <input type="text" id="role" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400" placeholder="Enter role">
+        </div>
+
+        <div>
+          <label for="package" class="block text-gray-700 font-medium mb-1">Package</label>
+          <input type="text" id="package" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400" placeholder="Enter package">
+        </div>
+
+        <button type="submit" class="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-2 rounded-lg transition-all duration-300">Add Placement</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
