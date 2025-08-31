@@ -29,5 +29,7 @@ A **full-stack Placement Tracker** built with:
 
 ---
 
+VIDEO EXPLANATION LINK: https://drive.google.com/file/d/1f3c1GT4dV25LzL0fgOl_qUsYXsx0k1RW/view?usp=sharing
+
 ## 📂 Folder Structure
 
